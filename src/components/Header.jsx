@@ -1,4 +1,8 @@
 import { motion } from "framer-motion"
+// import tech from "../assets/tech.png"
+// import circle from "../assets/circle.png"
+// import globe from "../assets/globe.png"
+import circit from "../assets/circit.png"
 
 const Header = () => {
 
@@ -6,10 +10,14 @@ const Header = () => {
         hidden: { x: -30, opacity: 0 },
         visible: { x: 0, opacity: 1 }
       };
+      const imgVariants = {
+        hidden: { x: 30, opacity: 0 },
+        visible: { x: 0, opacity: 1 }
+      };
 
 
   return (
-    <div className=" px-10 flex gap-4 w-full sm:h-screen h-[30rem] text-white">
+    <div className=" px-10 flex gap-4 w-full sm:h-screen h-[30rem] ">
         {/* text container */}
        <motion.div       
         initial="hidden"
@@ -25,9 +33,14 @@ const Header = () => {
 
        {/* image container */}
 
-       <div className="w-1/2 hidden lg:flex h-full p-10 items-center justify-center">
-           
-       </div>
+       <motion.div
+             initial="hidden"
+             animate="visible"
+             variants={imgVariants}
+             transition={{ ease: "easeOut", duration: 1 }}
+        className="w-1/2 hidden lg:flex h-full p-10 items-center justify-center">
+          <img src={circit} width={500} height={500} alt="" />
+       </motion.div>
     </div>
   )
 }
