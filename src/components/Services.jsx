@@ -66,7 +66,50 @@ const Services = () => {
              <li data-content="O" className="step">Data Center & Storage</li>
              <li data-content="O" className="step">GPON Solutions</li>
          </ul>
-         
+
+         <div className=" flex flex-col gap-10 mt-10 w-full">
+              <div className=" flex flex-col items-center justify-center">
+                <h1 className="sm:text-4xl text-2xl font-semibold">Network Management Solutions</h1>
+                <hr className=" w-72 text-center border border-gray-700 mt-5" />
+              </div>
+
+              <div className=" flex flex-wrap w-full items-center p-8 justify-center">
+
+                <div className="p-10 flex flex-col gap-4 items-center justify-center">
+                <button className="btn btn-ghost text-3xl sm:text-2xl"><i className="fa-solid fa-route fa-xl"></i></button>
+                  <span className="sm:text-xl font-semibold">Routing & Switching</span>
+                </div>
+
+                <div className="p-10 flex flex-col gap-4 items-center justify-center">
+                <button className=" btn btn-ghost text-3xl sm:text-2xl"><i className="fa-solid fa-gear"></i></button>
+                  <span className="sm:text-xl font-semibold">NMS</span>
+                </div>
+
+                <div className="p-10 flex flex-col gap-4 items-center justify-center">
+                <button className="btn btn-ghost text-3xl sm:text-2xl"><i className="fa-solid fa-network-wired"></i></button>
+                  <span className="sm:text-xl font-semibold">Network Security</span>
+                </div>
+
+                <div className="p-10 flex flex-col gap-4 items-center justify-center">
+                <button className="text-3xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-globe"></i></button>
+                  <span className="sm:text-xl font-semibold">Wireless Solutions</span>
+                </div>
+
+                
+                <div className="p-10 flex flex-col gap-4 items-center justify-center">
+                <button className="text-3xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-wifi"></i></button>
+                  <span className="sm:text-xl font-semibold">Wifi Guest Management Solution</span>
+                </div>
+                 
+                 
+                <div className="p-10 flex flex-col gap-4 items-center justify-center">
+                  <button className="text-3xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-plug"></i></button>
+                  <span className="sm:text-xl font-semibold">Cabeling Services</span>
+                </div>
+
+              </div>
+         </div>
+
       </div>
     </div>
   )
