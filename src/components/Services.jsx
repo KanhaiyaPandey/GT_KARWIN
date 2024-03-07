@@ -72,41 +72,40 @@ const Services = () => {
                 <hr className=" w-72 text-center border border-gray-700 mt-5" />
               </div>
 
-              <div className=" flex flex-wrap w-full items-center p-8 justify-center">
+              <div className="flex flex-wrap w-full gap-4 items-center justify-center">
 
-                <div className="p-10 flex flex-col gap-4 items-center justify-center">
-                <button className="btn btn-ghost text-3xl sm:text-2xl"><i className="fa-solid fa-route fa-xl"></i></button>
-                  <span className="sm:text-xl font-semibold">Routing & Switching</span>
-                </div>
+             <div className=" px-4 flex flex-col gap-4 items-center justify-center sm:w-1/2 xl:w-1/4">
+               <button className="btn btn-ghost text-xl sm:text-2xl"><i className="fa-solid fa-route fa-xl"></i></button>
+               <span className="sm:text-lg font-semibold">Routing & <br /> Switching</span>
+             </div>
 
-                <div className="p-10 flex flex-col gap-4 items-center justify-center">
-                <button className=" btn btn-ghost text-3xl sm:text-2xl"><i className="fa-solid fa-gear"></i></button>
-                  <span className="sm:text-xl font-semibold">NMS</span>
-                </div>
+             <div className="p-4 flex flex-col gap-4 items-center justify-center sm:w-1/2 xl:w-1/4">
+               <button className=" btn btn-ghost text-xl sm:text-2xl"><i className="fa-solid fa-gear"></i></button>
+               <span className="sm:text-xl font-semibold">NMS</span>
+             </div>
 
-                <div className="p-10 flex flex-col gap-4 items-center justify-center">
-                <button className="btn btn-ghost text-3xl sm:text-2xl"><i className="fa-solid fa-network-wired"></i></button>
-                  <span className="sm:text-xl font-semibold">Network Security</span>
-                </div>
+             <div className="p-4 flex flex-col gap-4 items-center justify-center sm:w-1/2 xl:w-1/4">
+               <button className="btn btn-ghost text-xl sm:text-2xl"><i className="fa-solid fa-network-wired"></i></button>
+               <span className="sm:text-xl font-semibold">Network <br /> Security</span>
+             </div>
 
-                <div className="p-10 flex flex-col gap-4 items-center justify-center">
-                <button className="text-3xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-globe"></i></button>
-                  <span className="sm:text-xl font-semibold">Wireless Solutions</span>
-                </div>
+             <div className="p-4 flex flex-col gap-4 items-center justify-center sm:w-1/2 xl:w-1/4">
+               <button className="text-xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-globe"></i></button>
+               <span className="sm:text-xl font-semibold">Wireless <br /> Solutions</span>
+             </div>
 
-                
-                <div className="p-10 flex flex-col gap-4 items-center justify-center">
-                <button className="text-3xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-wifi"></i></button>
-                  <span className="sm:text-xl font-semibold">Wifi Guest Management Solution</span>
-                </div>
-                 
-                 
-                <div className="p-10 flex flex-col gap-4 items-center justify-center">
-                  <button className="text-3xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-plug"></i></button>
-                  <span className="sm:text-xl font-semibold">Cabeling Services</span>
-                </div>
+             <div className="p-4 flex flex-col gap-4 items-center justify-center sm:w-1/2 xl:w-1/4">
+               <button className="text-xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-wifi"></i></button>
+               <span className="sm:text-xl font-semibold">Wifi Guest <br /> Management <br />Solution</span>
+             </div>
 
-              </div>
+            <div className="p-4 flex flex-col gap-4 items-center justify-center sm:w-1/2 xl:w-1/4">
+              <button className="text-xl btn btn-ghost sm:text-2xl"><i className="fa-solid fa-plug"></i></button>
+              <span className="sm:text-xl font-semibold">Cabling <br /> Services</span>
+            </div>
+
+            </div>
+
          </div>
 
 
@@ -130,7 +129,7 @@ const Services = () => {
                initial={{ opacity: 0, x: -50  }}
                whileInView={{ opacity: 1, x:0 }}
                transition={{delay: 0.3}}
-             className=" bg-black flex justify-center p-10 w-full mt-4 rounded-2xl  items-center text-white h-auto">
+             className=" bg-black flex justify-center px-10 w-full mt-4 rounded-2xl  items-center text-white h-[20rem] sm:h-[20rem] sm:overflow-hidden overflow-y-scroll">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
                    consequatur, maiores explicabo esse unde, itaque iure deserunt numquam corrupti
                     labore quas ipsum blanditiis cumque omnis, quibusdam exercitationem. Numquam optio
@@ -179,7 +178,7 @@ const Services = () => {
                initial={{ opacity: 0, x: -50  }}
                whileInView={{ opacity: 1, x:0 }}
                transition={{delay: 0.3}}
-             className=" bg-black flex justify-center px-10 w-full mt-4 rounded-2xl  items-center text-white h-[20rem] sm:h-[20rem] sm:overflow-hidden overflow-y-scroll">
+             className=" bg-black flex justify-center px-10 w-full mt-4 rounded-2xl  items-center text-white h-[20rem] sm:h-[20rem] sm:overflow-auto overflow-y-scroll">
                 <p className=" sm:mt-0 mt-auto text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
                    consequatur, maiores explicabo  esse unde, itaque iure deserunt numquam corrupti
                     labore quas ipsum blanditiis cumque omnis, quibusdam exercitationem. Numquam optio
@@ -196,7 +195,7 @@ const Services = () => {
           <div className=" w-full flex md:flex-row gap-10 flex-col p-4 mt-20">
 
               <div className=" lg:w-4/12 w-full flex flex-col items-center md:justify-start justify-center">
-              <h1 className=" bg-black text-white rounded-lg p-4 text-3xl font-semibold text-center lg:text-start mb-5">Solutions</h1>
+              <h1 className=" bg-black text-white rounded-2xl p-4 text-3xl font-semibold text-center lg:text-start mb-5">Solutions</h1>
              <ul className="steps steps-vertical font-semibold text-lg">
               <li className="step">CCT & Surveillance</li>
               <li className="step">Infrastructure Surveillance</li>
@@ -209,7 +208,7 @@ const Services = () => {
                
                
               <div className=" lg:w-4/12 w-full flex flex-col items-center md:justify-start justify-center">
-              <h1 className=" bg-black text-white rounded-lg p-4 text-3xl font-semibold text-center lg:text-start mb-5">Biometric Solutions</h1>
+              <h1 className=" bg-black text-white rounded-2xl p-4 text-3xl font-semibold text-center lg:text-start mb-5">Biometric Solutions</h1>
              <ul className="steps steps-vertical font-semibold text-lg">
               <li className="step">Access Control: Human, Vechile</li>
               <li className="step">Time $ Attendence</li>
@@ -221,7 +220,7 @@ const Services = () => {
 
             
             <div className=" lg:w-4/12 w-full flex flex-col items-center md:justify-start justify-center">
-              <h1 className=" bg-black text-white rounded-lg p-4 text-3xl font-semibold text-center lg:text-start mb-5">IP Video Door Phone Solution</h1>
+              <h1 className=" bg-black text-white rounded-2xl p-4 text-3xl font-semibold text-center lg:text-start mb-5">IP Video Door Phone Solution</h1>
              <ul className="steps steps-vertical font-semibold text-lg">
               <li className="step">Multi Appartment</li>
               <li className="step">Villa</li>
@@ -265,7 +264,7 @@ const Services = () => {
 
           <div className=" w-full flex flex-col items-center justify-center mt-20">
           <div className="w-full flex flex-col items-center md:justify-start justify-center">
-              <h1 className=" bg-black text-white rounded-lg p-4 text-3xl font-semibold text-center lg:text-start mb-5">Solutions</h1>
+              <h1 className=" bg-black text-white rounded-2xl p-4 text-3xl font-semibold text-center lg:text-start mb-5">Solutions</h1>
              <ul className="steps steps-vertical font-semibold text-lg">
               <li className="step">Enterprise grade communication Platforms with full High availablity </li>
               <li className="step">Unified Communication & Collaboration Solution</li>

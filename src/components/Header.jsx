@@ -24,9 +24,9 @@ const Header = () => {
       animate="visible"
       variants={textVariants}
       transition={{ ease: "easeOut", duration: 1 }}
-        className="sm:w-full md:w-full lg:w-full xl:w-1/2 lg:h-full  gap-5 flex flex-col justify-center">
+        className="sm:w-full md:w-full lg:w-full xl:w-1/2 lg:h-full sm:mt-0 mt-[7rem] sm:mb-0 mb-[7rem]  gap-5 flex flex-col justify-center">
         <h1 className=" text-3xl sm:text-5xl font-bold ">The Complete Electrical And IT Infrastructure Services Company</h1>
-         <p className=" sm:text-xl text-xs">
+         <p className=" sm:text-xl font-semibold">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod aspernatur reprehenderit, in unde voluptates consectetur consequatur, 
         fugiat iusto quisquam voluptas ducimus cumque ullam, omnis adipisci eligendi voluptatem. Saepe, minus suscipit!</p>
        </motion.div>
