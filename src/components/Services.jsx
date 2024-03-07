@@ -1,12 +1,12 @@
 import { motion } from "framer-motion"
-import circle from "../assets/circle.png"
+
 
 const Services = () => {
   return (
-    <div className=" w-full mt-10 px-4 py-8 gap-40 flex flex-col items-center justify-center">
+    <section id="services" className=" w-full mt-10 px-4 py-8 gap-40 flex flex-col items-center justify-center">
 
         <div className=" items-center justify-center flex">
-            <h1 className="sm:text-6xl text-3xl font-bold ">Our Services</h1>
+            <h1 className="sm:text-6xl text-3xl font-bold ">OUR SERVICES</h1>
         </div>
 
         <div className=" w-full flex gap-4 flex-col ">
@@ -14,9 +14,9 @@ const Services = () => {
           <motion.div
              initial={{ opacity: 0, x: -50  }}
              whileInView={{ opacity: 1, x:0 }}
-             transition={{delay: 0.2}}
-             className=" bg-black p-1 flex items-center justify-start sm:w-[5rem] md:w-[20rem] lg:w-[25rem] xl:w-[30rem]"style={{ clipPath: 'polygon(0 0, 90% 0%, 100% 100%, 0% 100%)' }}>
-            <h1 className=" sm:text-xl md:text-2xl xl:text-4xl lg:text-3xl text-white font-semibold p-4">IT Infrastructure Services</h1>
+             transition={{delay: 0.0}}
+             className=" bg-black p-1 flex items-center rounded-2xl justify-start sm:w-1/2 w-auto">
+            <h1 className=" sm:text-xl md:text-2xl xl:text-4xl lg:text-3xl text-white font-semibold p-4">IT INFRASTRUCTURE SERVICES</h1>
           </motion.div>
 
           {/* image*/}
@@ -27,19 +27,18 @@ const Services = () => {
             whileInView={{ opacity: 1, x:0 }}
             transition={{delay: 0.2}}
            className=" w-full flex justify-end">
-                 <div className=" bg-black  sm:w-[5rem] md:w-[20rem] lg:w-[25rem] xl:w-[30rem] p-1 flex justify-end"style={{ clipPath: 'polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%)' }}>
-                 <h1 className=" sm:text-xl md:text-2xl xl:text-4xl lg:text-3xl text-white font-semibold p-4">IT Infrastructure Services</h1>
+                 <div className=" bg-black sm:w-1/2 w-full rounded-2xl flex justify-centre items-center">
+                 <h1 className=" sm:text-xl md:text-2xl xl:text-4xl lg:text-3xl text-white font-semibold p-4">NETWORK INFRASTRUCTURE</h1>
                  </div>
           </motion.div>
 
-          <div className=" bg- flex items-center overflow-hidden justify-center w-full mt-10">
-              <motion.div className=" relative"
-                  animate={{ rotate: 360 }}
-                  initial={{opacity: 0.5}}
-                  transition={{ ease: "linear", duration: 30, repeat: Infinity }}>
-                <img src={circle} width={600}  alt="" />
-              </motion.div>
-              <div className=" absolute sm:w-3/4 px-2 w-full sm:text-2xl  items-center justify-center flex text-center text-white sm:font-semibold ">
+          <motion.div
+                   initial={{ opacity: 0, x: 50  }}
+                   whileInView={{ opacity: 1, x:0 }}
+                   transition={{delay: 0.4}}
+           className=" bg- flex items-center p-4 overflow-hidden justify-center bg-black h-[20rem] w-full mt-2 rounded-2xl  sm:overflow-hidden overflow-y-scroll">
+
+              <h1 className=" sm:w-3/4 text-center text-white sm:font-semibold ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Quibusdam vitae dolores officiis accusamus illum sapiente,
                   cum et numquam tenetur ut, natus, id distinctio ullam? 
@@ -49,8 +48,8 @@ const Services = () => {
                    fuga eaque necessitatibus quasi esse, corrupti ipsa minus nulla Lorem ipsum dolor sit
                     amet consectetur adipisicing elit. Dignissimos fugiat quisquam atque quae enim.
                 
-              </div>
-          </div>
+              </h1>
+          </motion.div>
     
 
          </div>
@@ -113,6 +112,9 @@ const Services = () => {
 
 
         </div>
+
+
+        {/* AV Integration And Solution */}
           
           <div className=" w-full flex gap-10 flex-col lg:flex-row">
 
@@ -219,7 +221,7 @@ const Services = () => {
 
             
             <div className=" lg:w-4/12 w-full flex flex-col items-center md:justify-start justify-center">
-              <h1 className=" bg-black text-white rounded-lg p-4 text-3xl font-semibold text-center lg:text-start mb-5">Solutions</h1>
+              <h1 className=" bg-black text-white rounded-lg p-4 text-3xl font-semibold text-center lg:text-start mb-5">IP Video Door Phone Solution</h1>
              <ul className="steps steps-vertical font-semibold text-lg">
               <li className="step">Multi Appartment</li>
               <li className="step">Villa</li>
@@ -277,7 +279,7 @@ const Services = () => {
 
           </div>
 
-    </div>
+    </section>
   )
 }
 

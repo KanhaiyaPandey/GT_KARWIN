@@ -1,8 +1,9 @@
-import React from 'react'
+
 
 const Projects = () => {
   return (
-    <div className=' w-full p-10'>
+    <section id='projects' className=' w-full flex items-center justify-center flex-col gap-10 p-10'>
+      <h1 className=" text-4xl font-bold">PROJECTS</h1>
 <div className="overflow-x-auto">
   <table className="table">
     {/* head */}
@@ -96,7 +97,7 @@ const Projects = () => {
     </tbody>
   </table>
 </div>
-    </div>
+    </section>
   )
 }
 
