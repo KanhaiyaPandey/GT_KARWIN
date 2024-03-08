@@ -38,7 +38,7 @@ const Services = () => {
                    transition={{delay: 0.4}}
            className=" bg- flex items-center p-4 overflow-hidden justify-center bg-black h-[20rem] w-full mt-2 rounded-2xl  sm:overflow-hidden overflow-y-scroll">
 
-              <h1 className=" sm:w-3/4 text-center text-white sm:font-semibold ">
+              <p className="sm:px-10 p-0  text-start text-white sm:font-semibold font-normal">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                  Quibusdam vitae dolores officiis accusamus illum sapiente,
                   cum et numquam tenetur ut, natus, id distinctio ullam? 
@@ -48,7 +48,7 @@ const Services = () => {
                    fuga eaque necessitatibus quasi esse, corrupti ipsa minus nulla Lorem ipsum dolor sit
                     amet consectetur adipisicing elit. Dignissimos fugiat quisquam atque quae enim.
                 
-              </h1>
+              </p>
           </motion.div>
     
 
@@ -130,7 +130,7 @@ const Services = () => {
                whileInView={{ opacity: 1, x:0 }}
                transition={{delay: 0.3}}
              className=" bg-black flex justify-center px-10 w-full mt-4 rounded-2xl  items-center text-white h-[20rem] sm:h-[20rem] sm:overflow-hidden overflow-y-scroll">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
+                <p className="sm:mt-0 mt-auto text-start sm:font-semibold font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
                    consequatur, maiores explicabo esse unde, itaque iure deserunt numquam corrupti
                     labore quas ipsum blanditiis cumque omnis, quibusdam exercitationem. Numquam optio
                      debitis ipsum ab fugit obcaecati voluptates minus ipsam autem aut ad magni, quibusdam,
@@ -178,8 +178,8 @@ const Services = () => {
                initial={{ opacity: 0, x: -50  }}
                whileInView={{ opacity: 1, x:0 }}
                transition={{delay: 0.3}}
-             className=" bg-black flex justify-center px-10 w-full mt-4 rounded-2xl  items-center text-white h-[20rem] sm:h-[20rem] sm:overflow-auto overflow-y-scroll">
-                <p className=" sm:mt-0 mt-auto text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
+             className=" bg-black flex justify-center px-0 sm:px-10 w-full mt-4 rounded-2xl  items-center text-white h-[20rem] sm:h-[20rem] sm:overflow-auto overflow-y-scroll">
+                <p className=" sm:mt-0 mt-auto text-start sm:font-semibold font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
                    consequatur, maiores explicabo  esse unde, itaque iure deserunt numquam corrupti
                     labore quas ipsum blanditiis cumque omnis, quibusdam exercitationem. Numquam optio
                      debitis ipsum ab fugit obcaecati voluptates minus ipsam autem aut ad magni, quibusdam,
@@ -250,7 +250,7 @@ const Services = () => {
                whileInView={{ opacity: 1, x:0 }}
                transition={{delay: 0.3 }}
              className=" bg-black flex justify-center px-10 w-full mt-4 rounded-2xl  items-center text-white h-[20rem] sm:h-[20rem] sm:overflow-hidden overflow-y-scroll">
-                <p className=" sm:mt-0 mt-auto text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
+                <p className=" sm:mt-0 mt-auto text-start sm:font-semibold font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tenetur
                    consequatur, maiores explicabo  esse unde, itaque iure deserunt numquam corrupti
                     labore quas ipsum blanditiis cumque omnis, quibusdam exercitationem. Numquam optio
                      debitis ipsum ab fugit obcaecati voluptates minus ipsam autem aut ad magni, quibusdam,
