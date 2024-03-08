@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import raka from "../assets/raka.svg"
 
 
 const Services = () => {
@@ -20,7 +21,11 @@ const Services = () => {
           </motion.div>
 
           {/* image*/}
-          <div className=" h-[30rem]"></div>
+          <div className=" flex items-center flex-col justify-center text-center w-full h-auto">
+         
+         <img src={raka} alt="" className=" object-cover h-auto  lg:h-[1000px]" />
+      
+          </div>
           
           <motion.div
             initial={{ opacity: 0, x: 50  }}
@@ -190,6 +195,8 @@ const Services = () => {
                  </p>
             </motion.div>
           </div>
+
+
               {/* safety and security solutions */}
 
           <div className=" w-full flex md:flex-row gap-10 flex-col p-4 mt-20">
