@@ -21,11 +21,15 @@ const Services = () => {
           </motion.div>
 
           {/* image*/}
-          <div className=" flex items-center flex-col justify-center text-center w-full h-auto">
+          <motion.div 
+           initial={{ opacity: 0, scale: 1  }}
+            whileInView={{ opacity: 1, scale:[0,1.5, 1] }}
+            transition={{ease:"easeInOut", duration: 0.5,}}
+          className=" flex items-center flex-col justify-center text-center w-full h-auto">
          
          <img src={raka} alt="" className=" object-cover h-auto  lg:h-[1000px]" />
       
-          </div>
+          </motion.div>
           
           <motion.div
             initial={{ opacity: 0, x: 50  }}
